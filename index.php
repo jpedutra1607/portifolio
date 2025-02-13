@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
 
+
+<style>
+
+*  {
+margin: 0;
+padding: 0;
+
+}
+
+body{
+      background-image: url('imagens/logo.png');
+      background-repeat: no-repeat ;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+p {
+    border: 1px solid blue;
+}
+
+h1{
+    background: blue;
+}
+
+
+
+</style>
+
+
+
     <link rel="stylesheet" href= "css/style.css" />
 </head>
 <body>
@@ -17,7 +48,7 @@
 
         <div class="logo">
 
-          <img src="imagens/logo.png" alt="LOGO" width="150"/>
+          <img src="imagens/logo.png" alt="LOGO" width="300"/>
 
         </div>
            
@@ -44,7 +75,8 @@
        </div>
 
           <div class="class socialIcons"></div>
-          <a href="#">Twitter</a>
+          <a href="#" 
+          >Twitter</a>
           <a href="#">Facebook</a>
           <a href="#">LinkedIn</a>
           <a href="#">Instagram</a>
