@@ -2,41 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
 
-
-<style>
-
-*  {
-margin: 0;
-padding: 0;
-
-}
-
-body{
-      background-image: url('imagens/logo.png');
-      background-repeat: no-repeat ;
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-}
-
-p {
-    border: 1px solid blue;
-}
-
-h1{
-    background: blue;
-}
-
-
-
-</style>
-
-
-
-    <link rel="stylesheet" href= "css/style.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    
 </head>
 <body>
 
