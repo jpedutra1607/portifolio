@@ -6,53 +6,52 @@
     <title>Portifólio</title>
 
     <link rel="stylesheet" href="css/estilos.css" />
-    
+
+   
 </head>
 <body>
 
-<div class="interface">
- 
-     <header class="cabecalho">
+<div id="interface">
 
-       <nav class="menu">
+    <header class="cabecalho">
 
-        <div class="logo">
 
-          <img src="imagens/logo.png" alt="LOGO" width="300"/>
+        <nav class="menu">
+
+            <div class="logo">
+                <img src="imagens/logo.png" alt="LOGO" />
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Portifólio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="titles">
+
+            <h1 class="titulo">Entregando serviços de qualidade</h1>
+            <h1 class="subtitulo">Soluções em TI</h1>
+
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quibusdam ab in! A, nam voluptas!</p>
 
         </div>
-           
-               <ul>
-                  
-                 <li>Home</li>
-                 <li>Serviços</li>
-                 <li>Produtos</li>
-                 <li>Sobre</li>
-                 <li>Contato</li>
-                 <li>Portifolio</li>
 
-               </ul>
-
-       </nav>
-
-       <div class="titles">
-
-         <h1 class="Title"> Entregando Serviços de Qualidade </h1>
-         <h1 class="Subtitle"> Soluções em TI</h1>
-
-            <p class="paragrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolores nam illum sint, quisquam vero! </p>
-
-       </div>
-
-          <div class="class socialIcons"></div>
-          <a href="#" 
-          >Twitter</a>
-          <a href="#">Facebook</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Instagram</a>
+        <div class="socialIcons">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+        </div>
 
     </header>
 
+    
 </div>
     
 </body>
