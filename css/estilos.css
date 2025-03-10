@@ -1,16 +1,21 @@
 :root {
-     font-size: 12px;
-     font-family: Verdana, sans-serif;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
 }
 
 @font-face {
     font-family: Roboto;
-    src: url('../fonts/static/Roboto-Regular.ttf');
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
 }
 
 @font-face {
     font-family: Oswald;
-    src: url(../fonts/Oswald/static/Oswald-Regular.ttf);
+    src: url('../fonts/Oswald/static/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf');
 }
 
 * {
@@ -49,7 +54,7 @@
 
 #interface .cabecalho .menu .logo {
     display: block;
-    width: 150px ;
+    width: 150px;
 }
 
 #interface .cabecalho .menu .logo img {
@@ -70,9 +75,9 @@
 
 #interface .cabecalho .menu ul li a {
     display: block;
-    color: #fafafa;
     font-family: Oswald;
-    font-size: 1.5rem;
+    color: #fafafa;
+    font-size: 2rem;
     padding: .5rem 1rem;
     text-decoration: none;
 }
@@ -82,7 +87,7 @@
     content: '';
     width: 0;
     height: 4px;
-    background-color: #9941bf;
+    background-color: #9941BF;
     border-radius: 1px;
     margin-top: .5rem;
     transition: width .2s ease;
@@ -93,19 +98,47 @@
 }
 
 #interface .cabecalho .titles {
+    flex-grow: 1; /* REFERE-SE AO FLEX DO CABECALHO */
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     justify-content: center;
     width: 70%;
     margin: 0 auto;
 }
 
 #interface .cabecalho .titles .container-titles {
-   border: 1px solid rgba(31, 41, 92, 0.726);
-   width: 65%;
-   margin: 0 0 0 auto;
+    width: 60%;
+    margin: 0 0 0 auto;
 }
-#interface .cabecalho .titles .container-titles{
-    font-family: Roboto;
+
+#interface .cabecalho .titles .container-titles h1 {
+    font-family: Montserrat;
+}
+
+#interface .cabecalho .titles .container-titles h1.titulo {
+    font-size: 2.5rem;
+}
+
+#interface .cabecalho .titles .container-titles h1.subtitulo {
+    color: #9941BF;
+    text-shadow: 0 0 20px rgba(255,255,255,.3);
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+#interface .cabecalho .titles .container-titles p.paragrafo {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+#interface .cabecalho .titles .socialIcons {
+    width: 60%;
+    margin: 2rem 0 0 auto;
+}
+
+#interface .cabecalho .titles .socialIcons a {
+    color: #9941BF;
+    padding: 1.5rem;
+    font-size: 1.2rem;
 }
